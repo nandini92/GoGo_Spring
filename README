@@ -1,0 +1,13 @@
+# TextReader
+Project aimed at converting GoGo Ecommerce backend from NodeJs to Spring Boot.
+
+
+## Learnings
+1. Organizing Backend layers into :
+    1. Rest Controller layer
+    2. Service Layer
+    3. Data Layer
+
+2. Utilizing MongoRepository interface to perform database CRUD actions.
+
+3. Using ResponseEntity to construct complete response objects to API calls.
