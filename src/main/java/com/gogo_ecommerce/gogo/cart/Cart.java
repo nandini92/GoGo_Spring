@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.gogo_ecommerce.gogo.order.Order;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

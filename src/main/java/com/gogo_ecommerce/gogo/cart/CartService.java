@@ -7,8 +7,6 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gogo_ecommerce.gogo.order.Order;
-
 @Service
 public class CartService {
     @Autowired
@@ -69,5 +67,9 @@ public class CartService {
         Cart results = cartRepository.save(cart);
 
         return results;
+    }
+
+    public void deleteCart(String id) {
+        cartRepository.deleteById(id);
     }
 }
