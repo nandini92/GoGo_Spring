@@ -10,4 +10,4 @@ Project aimed at converting GoGo Ecommerce backend from NodeJs to Spring Boot.
 
 2. Utilizing MongoRepository interface to perform database CRUD actions.
 
-3. Using ResponseEntity to construct complete response objects to API calls.
+3. Using ResponseEntity to construct complete response objects to API calls. Being that Java is typed and JS is not, I found that my previous NodeJS backend was not standardized enough, causing the creation of ResponseEntities and JSON records in this project to be not well structured as well. This process has helped me realize the importance of typed languages in helping to organize and order code.
